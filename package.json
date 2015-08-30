@@ -1,5 +1,5 @@
 {
-  "name": "allensdk-connectivity-thumbnail",
+  "name": "mouse-connectivity-thumbnail",
   "version": "0.0.0",
   "dependencies": {
     "lightning-client-utils": "^0.6.3",
@@ -19,6 +19,6 @@
     ]
   },
   "lightning": {
-    "name": "allensdk-connectivity-thumbnail"
+    "name": "mouse-connectivity-thumbnail"
   }
 }
