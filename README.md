@@ -1,13 +1,13 @@
-allen-connectivity-thumbnail
-============================
+lightning-connectivity-thumbnail
+================================
 
 This is a [lightning-viz](http://lightning-viz.org/) plugin for creating a 3D visualization of the projection density for an experiment in the [Allen Mouse Brain Connectivity Atlas](http://connectivity.brain-map.org).
 
 installation
 ------------
 
-    $ git clone https://github.com/dyf/allen-connectivity-thumbnail.git
-    $ cd allen-connectivity-thumbnail
+    $ git clone https://github.com/dyf/lightning-connectivity-thumbnail.git
+    $ cd lightning-connectivity-thumbnail
     $ npm link .
 
 Then you need to import the visualization into a lightning server.
@@ -25,5 +25,5 @@ If you are inside an IPython/Jupyter notebook, you can:
     > from lightning import Lightning 
     > lgn = Lightning(ipython=True)
     > experiment_id = 113095845
-    > lgn.plot(type='allen-connectivity-thumbnail', data={'experiment_id': [experiment_id]})
+    > lgn.plot(type='lightning-connectivity-thumbnail', data={'experiment_id': [experiment_id]})
 
